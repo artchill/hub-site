@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Horizon Unified BPO Corp. (HUB)</title>
+  <meta name="description" content="Let's connect. Send a business inquiry to Horizon Unified BPO Corp., 503B TGU Tower, Cebu IT Park, Apas, Cebu, Philippines.">
+  <meta name="theme-color" content="#0b2545">
+  <link rel="icon" href="assets/logo/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/logo/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/logo/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Wix+Madefor+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <style>
+    .contact-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 1.5rem; align-items: start; }
+    @media (max-width: 900px) { .contact-layout { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="stars" data-count="80"></div>
+      <div class="glow violet" style="width:500px;height:500px;right:-8%;top:-12%;opacity:.32"></div>
+      <div class="container relative">
+        <span class="eyebrow reveal">Let’s Connect</span>
+        <h1 class="reveal delay-1">Your next business opportunity <span class="serif">starts</span> here</h1>
+        <p class="section-lead reveal delay-2">Whether you are exploring outsourcing for the first time or looking for a new business support partner, Horizon Unified BPO Corp. welcomes the opportunity to learn about your requirements. Let’s discuss how our proposed outsourcing solutions can support your business goals.</p>
+      </div>
+    </section>
+
+    <section class="section" id="inquiry-section" style="padding-top:2rem">
+      <div class="container">
+        <div class="contact-layout">
+          <aside class="card reveal">
+            <span class="eyebrow">Business Inquiries</span>
+            <ul class="info-list">
+              <li><div class="icon-box" data-icon="building"></div><div><strong>Company</strong><span>Horizon Unified BPO Corp.</span></div></li>
+              <li><div class="icon-box" data-icon="globe"></div><div><strong>Location</strong><span>Philippines</span></div></li>
+              <li><div class="icon-box" data-icon="pin"></div><div><strong>Office Address</strong><span>503B TGU Tower Cebu IT Park Apas</span></div></li>
+              <li><div class="icon-box" data-icon="mail"></div><div><strong>Business Email</strong><span class="placeholder" data-config="BUSINESS_EMAIL">[business email — to be provided]</span></div></li>
+              <li><div class="icon-box" data-icon="phone"></div><div><strong>Telephone</strong><span class="placeholder" data-config="TELEPHONE">[telephone — to be provided]</span></div></li>
+            </ul>
+          </aside>
+
+          <div class="card form-card reveal delay-1">
+            <span class="eyebrow">Send Us an Inquiry</span>
+            <h2 style="font-size:2.2rem;margin-bottom:.6rem">Tell us about your outsourcing needs.</h2>
+            <p style="margin-bottom:1.6rem">Fields marked <span class="lilac">*</span> are required.</p>
+            <div id="inquiry-form-slot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="career-inquiries" style="padding-top:0">
+      <div class="container">
+        <article class="panel reveal" style="min-height:0">
+          <div class="nebula"></div><div class="stars" data-count="35"></div>
+          <div>
+            <span class="eyebrow">Career Inquiries</span>
+            <h2 style="font-size:clamp(2rem,4vw,3.2rem)">Looking to join HUB?</h2>
+            <p>For employment-related questions and applications, please visit our Careers page or contact our recruitment team through the designated official channel.</p>
+            <p style="margin-top:1rem;font-size:.95rem">Recruitment email: <span class="placeholder" data-config="RECRUITMENT_EMAIL" style="font-style:italic">[recruitment email — to be provided]</span></p>
+            <a href="careers.html" class="btn">Visit Careers Page</a>
+          </div>
+          <div class="panel-visual"><div class="mock"><div class="mock-head"><b>Recruitment</b><span class="badge ok">Open channel</span></div><div class="mock-row"><span>Careers page</span><small>careers.html</small></div><div class="mock-row"><span>Recruitment team</span><small>Official channel</small></div></div></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
